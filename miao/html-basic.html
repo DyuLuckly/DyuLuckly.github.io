@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -77,58 +78,106 @@
     </form>
     <hr>
     <form accept="">
-  <p>个人信息调查表</p>
-  <dl>
-  <dt>性别
-      <dd>
-        <label><input type="radio" name="gender" value="man">男</label>
-        <label><input type="radio" name="gender" value="feman">女</label>
-      </dd>
-  </dt>
-  <dt>年龄
-    <dd>
-      <select name="age">
-        <option hidden value="">请选择</option>
-        <optgroup label="少年">
-          <option>1到6岁</option>
-          <option>6到12岁</option>
-        </optgroup>
-        <optgroup label="青年">
-          <option>13到15岁</option>
-          <option>16到18岁</option>
-        </optgroup>
-        <optgroup label="壮年">
-          <option>1到6岁</option>
-          <option>6到12岁</option>
-        </optgroup>
-      </select>
-    </dd>
-  </dt>
-  <dt>生日
-    <dd><input type="date" name="birthday"></dd>
-  </dt>
-  <dt>生辰</dt>
-    <dd><input type="datetime" name="birthday">
-      </dd>
-  <dt>照片
-    <dd>
-  <label><input hidden type="file" name="pircture"> 点我上传照片，我比文件上传按钮好看</label>
-    </dd>
-  </dt>
-    <dt>肤色
-      <dd><input type="color"></dd>
-    </dt>
-  <dt>自我介绍
-    <dd><textarea name="textarea" cols="20" rows="20"></textarea></dd>
-  </dt>
-  </dl>
+      <p>个人信息调查表</p>
+      <dl>
+      <dt>性别
+        <dd>
+          <label><input type="radio" name="gender" value="man">男</label>
+          <label><input type="radio" name="gender" value="feman">女</label>
+        </dd>
+       </dt>
+      <dt>年龄
+        <dd>
+        <select name="age">
+          <option hidden value="">请选择</option>
+          <optgroup label="少年">
+            <option>1到6岁</option>
+            <option>6到12岁</option>
+          </optgroup>
+          <optgroup label="青年">
+            <option>13到15岁</option>
+            <option>16到18岁</option>
+          </optgroup>
+          <optgroup label="壮年">
+            <option>1到6岁</option>
+            <option>6到12岁</option>
+          </optgroup>
+       </select>
+        </dd>
+      </dt>
+      <dt>生日
+        <dd><input type="date" name="birthday"></dd>
+      </dt>
+      <dt>生辰</dt>
+        <dd><input type="datetime" name="birthday">
+          </dd>
+      <dt>照片
+        <dd>
+      <label><input hidden type="file" name="pircture"> 点我上传照片，我比文件上传按钮好看</label>
+        </dd>
+      </dt>
+        <dt>肤色
+          <dd><input type="color"></dd>
+        </dt>
+      <dt>自我介绍
+        <dd><textarea name="textarea" cols="20" rows="20"></textarea></dd>
+      </dt>
+      </dl>
     <legend>这里面的全都禁用了</legend>
-    <input disabled type="text">
-    <input disabled type="text">
-    <input disabled type="text">
-    <input disabled type="text">
-      <button>提交</button>
-      <button type="reset">重置</button>
-    </form>
+      <input disabled type="text">
+      <input disabled type="text">
+      <input disabled type="text">
+      <input disabled type="text">
+    <button>提交</button>
+    <button type="reset">重置</button>
+  </form>
+  <hr>
+  <table border="1">
+    <col >
+    <tbody>
+      <tr>
+        <th>编号</th>
+        <th bgcolor=red>品名</th>
+        <th >进价</th>
+        <th>出价</th>
+      </tr>
+      <tr>
+        <th>aaa</th>
+        <td bgcolor=red>aaa</td>
+        <td rowspan="2">5</td>
+        <td>aaa</td>
+      </tr>
+      <tr>
+        <th>aaa</th>
+        <td bgcolor=red>aaa</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <th>aaa</th>
+        <td bgcolor=red>aaa</td>
+        <td>aaa</td>
+        <td>aaa</td>
+      </tr>
+      <tr>
+        <th>aaa</th>
+        <td bgcolor=red>aaa</td>
+        <td>aaa</td>
+        <td>aaa</td>
+      </tr>
+     </tbody>
+   </table>
+   <hr>
+   <img width="300" usemap="#map" src="https://drscdn.500px.org/photo/174778125/m%3D1170_k%3D1/2841ccf2a3720e8e794a6a6930f6ff2c" alt="">
+      <map name="map">
+        <area shape="rect" coords="55,110,210,200" href="#" alt="caffee">
+        <area shape="circle" coords="135,260,90" href="#" alt="keke">
+      </map>
+      <hr>
+      <a target="frame" href="https://www.mi.com/">小米</a>
+      <div></div>
+      <iframe name=frame src="https://nodejs.org" frameborder="1"></iframe>
+      <p>aaa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bbbbb</p>
+      <pre>aaa           bbbb</pre>
+      >>>>>>>>>>>>>>>>><<<<<<<<<< &lt;span>&lt;/span>
   </body>
 </html>
