@@ -1,0 +1,33 @@
+ .hover:hover{
+        background:red;
+         }
+      .hover:active{
+          background:green;
+         }
+      .hover:focus{
+          background:blue;
+         }
+      .lianjie:visited{
+         color:orange;
+       }
+      .lianjie a{
+         color:pink;
+       }
+      .xiao li:nth-child(-n + 25) {
+          color:red;
+         }
+      .xiao li:nth-child( n + 65) {
+          color:green;
+         }
+      .xiao li:nth-child( n + 35):nth-child(-n + 50) {
+          color:blue;
+         }
+       .zhishu li:nth-child(2n+4),
+       .zhishu li:nth-child(3n+6),
+       .zhishu li:nth-child(4n+8),
+       .zhishu li:nth-child(5n+10)
+        {
+          color: red;
+         }
+     .zhishu li:first-child{
+        color:yellow;
